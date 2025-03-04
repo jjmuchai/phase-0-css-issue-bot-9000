@@ -1,23 +1,28 @@
+/* Fixed background property syntax */
 body {
-  background pink;
+  background: pink; /* Added colon after 'background' */
 }
 
+/* Fixed font-size property */
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Changed 'fontsize' to 'font-size' */
 }
 
+/* Fixed missing semicolon and font-style issue */
 h2 {
   color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal;
+  font-style: italic; /* Added missing semicolon */
 }
 
+/* Corrected font-family and replaced with font-size */
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* 'font-family' changed to 'font-size' */
 }
 
+/* Fixed 'background' property typo */
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* Fixed 'backgound' typo */
   text-decoration: underline;
 }
